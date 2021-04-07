@@ -1,0 +1,62 @@
+.singupSection,
+.loginSection{
+    height: 94.5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginContainer,.singupContainer{
+    border: 1px solid var(--borderColor);
+    width: 350px;
+    min-height: 400px;
+    border-radius: 8px;
+}
+input[type="email"],
+input[type="text"]{
+    width: 17rem;
+    height: 1.4rem;
+}
+
+.loginContainer{
+    display: grid;
+    grid-template-rows: 1fr 60px 60px 60px 80px;
+    place-items: center;
+}
+
+.forget{
+    text-align: center;
+    margin: 10px;
+    color: blue;
+    cursor: pointer;
+}
+
+.loginref,
+.singinref{
+    display: flex;
+    color: blue;
+    cursor: pointer;
+}
+.loginref .Login,
+.singinref .Singin{
+    margin-right: 10px;
+}
+.loginref{
+    margin-bottom:20px;
+}
+/* .otp{
+    display: none;
+} */
+
+
+/* ####################################### */
+
+.produceSeed #seed{
+    width: 17rem;
+    height: 1.4rem;
+}
+.singupContainer{
+    display: grid;
+    grid-template-rows: repeat(auto-fit, 50px);
+    place-items: center;
+}

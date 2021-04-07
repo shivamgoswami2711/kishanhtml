@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5708ed03ed.js" crossorigin="anonymous"></script>
+</head>
+<body class="indexFile">
+    <header>
+        <div class="mainheader">
+            <div class="logo"><img src="" alt=""></div>
+            <div><input class="search" type="search" name="" id=""></div>
+            <nav>
+                <ul class='navul'>
+                    <li class="home"><a href="/"><i class="fas fa-home"></i><span>Home</span></a></li>
+                    <li class="bell"><a href="#"><i class="fas fa-bell"></i><span>Notification</span></a></li>
+                    <li class="user"><a href="#"><i class="fas fa-user-alt"></i><span>Profile</span></a></li>
+                    <li class="chat"><a href="chat.html"><i class="far fa-comment-dots"></i><span>Chat</span></a></li>
+                    <li class=""><a href="#"><i class="fas fa-caret-down"></i><span>More</span></a></li>
+                </ul>
+            </nav>
+            <div id="hangBurger"></div>
+        </div>
+    </header>
+    
+    <main>
+        <section>
+            <div class="leftheaderButton">
+                <div class="button filterbtn">Filter</div>
+                <div class="button newPrice">New price</div>
+            </div>
+            <div class="leftheader">
+                <span class="cencelLeftHeader">X</span>
+                <div>
+                    <div style="margin-top: 40px;" class="button newPrice">new price</div>
+                </div>
+                <div>
+                    <h3>Filter</h3>
+                    <div>
+                        <label for="seed">SEED</label>
+                        <select name="seed" id="seed">
+                            <option value="" selected hidden ></option>
+                            <option value="makka">makka</option>
+                            <option value="makka">makka</option>
+                            <option value="makka">makka</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="seed">SEED</label>
+                        <select name="seed" id="seed">
+                            <option value="" selected hidden ></option>
+                            <option value="makka">makka</option>
+                            <option value="makka">makka</option>
+                            <option value="makka">makka</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="seed">SEED</label>
+                        <select name="seed" id="seed">
+                            <option value="" selected hidden ></option>
+                            <option value="makka">makka</option>
+                            <option value="makka">makka</option>
+                            <option value="makka">makka</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="moisturerangeFilter">moisture</label>
+                        <div class="rangeContainer"><input type="range" name="moisture" class="range" max="20" value="0" id="moisturerangeFilter">
+                            <div class="moistuerValue"></div>
+                        </div>
+                        
+                    </div>
+                    <div>
+                        <label for="fungus">Fungus</label>
+                        <div class="rangeContainer"><input type="range" name="moisture" class="range" max="20" value="0" id="fungusrangeFilter"><div class="fungusValue"></div></div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="postContainer">
+            <div class="seedInfoContainer">
+                <div class="namecontainer">
+                    <div class="profilePic"><img src="./profile.jpg" alt=""></div>
+                    <div class="profileName">
+                        <h2>shivam</h2>
+                        <p>Chhindwara mp 480110</p>
+                   </div>
+                </div>
+                <div class="infoContainer">
+                    <div class="seedName">
+                        <h2>Makka</h2>
+                        <p>mandi name</p>
+                    </div>
+                    <div class="info">
+                        <p>Quality : low</p>
+                        <p>fangas : 5%</p>
+                        <p>moisture : 14%</p>
+                    </div>
+                </div>
+                <div class="priceContainer">
+                    <div class="priceUp">
+                        <div class="price">
+                            <h2>Price</h2>
+                            <p>average 1250</p>
+                        </div>
+                        <div class="priceUpHigh">
+                            <p>hight 1400</p>
+                            <p>low 1400</p>
+                        </div>
+                    </div>
+                    <div class="sellButton">
+                        <div class="button sellSeed">SELL</div>
+                    </div>
+                </div>
+            </div>
+            <div class="seedInfoContainer">
+                <div class="namecontainer">
+                    <div class="profilePic"><img src="./profile.jpg" alt=""></div>
+                    <div class="profileName">
+                        <h2>shivam</h2>
+                        <p>Chhindwara mp 480110</p>
+                   </div>
+                </div>
+                <div class="infoContainer">
+                    <div class="seedName">
+                        <h2>Makka</h2>
+                        <p>mandi name</p>
+                    </div>
+                    <div class="info">
+                        <p>Quality : low</p>
+                        <p>fangas : 5%</p>
+                        <p>moisture : 14%</p>
+                    </div>
+                </div>
+                <div class="priceContainer">
+                    <div class="priceUp">
+                        <div class="price">
+                            <h2>Price</h2>
+                            <p>average 1250</p>
+                        </div>
+                        <div class="priceUpHigh">
+                            <p>hight 1400</p>
+                            <p>low 1400</p>
+                        </div>
+                    </div>
+                    <div class="sellButton">
+                        <div class="button sellSeed">SELL</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="popupSection">
+        </section>
+    </main>
+    <footer></footer>
+    <script src="./script/app.js" type="module"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</body>
+</html>
